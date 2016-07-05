@@ -1,0 +1,97 @@
+.barra{
+	border-collapse: collapse;
+    width: 100%;
+    background-color: #4472c4;
+}
+
+.opciones{
+	font-family: "Times New Roman";
+	font-size: 14px;
+	padding: 8px;
+	color: white;
+}
+
+.tituloUTP1{
+	font-family: "Century Gothic";
+	font-size: 24px;
+}
+.tituloUTP2{
+	font-family: "Century Gothic";
+	font-size: 16px;
+}
+.titulosComunes{
+	padding: 0 8px;
+}
+.header {
+	width: 100%;
+    background:#f2f2f2;
+    width: 100%;
+    height: 150px;
+    
+}
+.separador{
+	width: 2px;
+    height: 135px;
+    background:#000000;
+}
+.colorArriba{
+	width: 100%;
+    height: 35px;
+    background:#b218be;
+}
+.colorAbajo{
+	width: 100%;
+    height: 3px;
+    background:#ffe48e;
+    margin: 0 0 40px 0;
+}
+.cuentaUsuario{
+	bottom: 100%;
+}
+.btn{
+	background-color: #454045; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+.fecha{
+	right: 100%;
+}
+.tamT1{
+	width: 12%;
+}
+.tamT2{
+	width: 2%;
+}
+.tdese{
+	width: 100%;
+}
+.logo{
+	width: 125px;
+	height: 125px;
+	padding: 0 8px;
+	right: 100%;
+}
+.contenedor{
+	width: 100%;
+}
+.logotipo{
+	width: 10%;
+}
+.tdotro{
+	width: 86%;
+}
+.btn1{
+	background-color: #4472c4; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
