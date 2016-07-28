@@ -95,3 +95,40 @@
     display: inline-block;
     font-size: 14px;
 }
+.columnaBusqueda{
+	width: 100%;
+	align: center;
+
+}
+.cuerpoBusqueda{
+	width: 100%;
+	height: 100%;
+}
+.contenidoCajaBusqueda{
+}
+.barraDeBusqueda{
+	background:#f2f2f2;
+	padding: 6%;
+}
+.cuerpoNoticias{
+	width: 100%;
+}
+.NoticiasContenidoliterarioNoticias{
+	width: 100%;
+}
+.noticias{
+	width: 100%;
+}
+.noticias1{
+	width: 15%;
+}
+.noticias2{
+	width: 100%;
+}
+.zonalinetaria{
+	width: 65%;
+}
+.noticiasUTP{
+	width: 100%;
+	height: 800;
+}

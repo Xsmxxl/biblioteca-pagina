@@ -9,6 +9,10 @@
 	<script type="text/javascript" src="js\funciones.js">
 		//con este script puedo llamar en una ruta local un .js para ejecutarlo
 	</script>
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+	</script>
+
 </head>
 
 <header>
@@ -46,11 +50,12 @@
 			  </tr>
 
 
-			
+
 
 		</table>
 	</div>
 
+	
 
 	</div>
 	<div class="colorAbajo"></div>
@@ -70,4 +75,49 @@
 			<th class="opciones"><button class="btn1" onclick="prueba()">Ayuda</button></th>
 		</tr>
 	</table>
+
+	
+<div class="barraDeBusqueda">
+	<tbody class="cuerpoBusqueda">
+		<table class="contenidoCajaBusqueda" align="center">
+			<tr class="columnaBusqueda">
+				<th class="cajaBusqueda">
+					<input type="text" id="textoBusqueda" value="Búsca con Summon" size="75%" />
+				</th>
+				<th class="botones">
+					<button onclick="buscar()" class="botonDeBusqueda" >Buscar</button>
+				</th>
+
+			</tr>
+		</table>
+	</tbody>	
+</div>
+
+<div class="seccionNoticias">
+	<tbody class="cuerpoNoticias">
+		<table class="NoticiasContenidoliterarioNoticias">
+			<tr class="noticias">
+				<th class="noticias1">
+					Párrafo 1
+				</th>
+
+				<th class="zonalinetaria">
+					Párrafo 2
+				</th>
+			
+			
+				<th class="noticias2" >
+					<a class="twitter-timeline" href="https://twitter.com/utppanama"
+					 height="400"
+  					data-chrome="nofooter"
+  					data-link-color="#820bbb"
+  					data-border-color="#a80000">Tweets de utppanama</a> 
+					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</th>
+			</tr>
+			
+		</table>
+	</tbody>
+</div>
+
 </body>

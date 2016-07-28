@@ -46,7 +46,15 @@ function fecha(){
     if(mm<10){
         mm='0'+ mm;
     } 
-    var today = 'Panamá '+dd+'/'+mm+'/'+yyyy+' '+hh+':'+hm+ momento;
+    //+' '+hh+':'+hm+ momento
+    var today = 'Panamá '+dd+'/'+mm+'/'+yyyy;
 	
 	document.getElementById("fecha").innerHTML= today;
+}
+
+function buscar(){
+    var busquedaIncompleta = document.getElementById("textoBusqueda").value;
+    var url = "http://utp.summon.serialssolutions.com/#!/search?ho=t&l=es-ES&q=";
+    var busqComplt = url + busquedaIncompleta.split(" ").join("+");
+    window.location=busqComplt;
 }
