@@ -22,11 +22,11 @@
 .titulosComunes{
 	padding: 0 8px;
 }
-.header {
+.heder {
 	width: 100%;
     background:#f2f2f2;
     width: 100%;
-    height: 150px;
+    height: 10rem;
     
 }
 .separador{
@@ -62,7 +62,8 @@
 	right: 100%;
 }
 .tamT1{
-	width: 12%;
+	width: 18%;
+	margin-left: 18%;
 }
 .tamT2{
 	width: 2%;
@@ -73,7 +74,7 @@
 .logo{
 	width: 125px;
 	height: 125px;
-	padding: 0 8px;
+	margin-left: 40%;
 	right: 100%;
 }
 .contenedor{
@@ -110,8 +111,9 @@
 	background:#f2f2f2;
 	padding: 6%;
 }
+.seccionNoticias{ padding: 0; }
 .cuerpoNoticias{
-	width: 100%;
+	width: 100%; padding: 0;
 }
 .NoticiasContenidoliterarioNoticias{
 	width: 100%;
@@ -120,13 +122,13 @@
 	width: 100%;
 }
 .noticias1{
-	width: 15%;
+	width: 20%;
 }
 .noticias2{
-	width: 100%;
+	width: 20%;
 }
 .zonalinetaria{
-	width: 65%;
+	width: 60%; background:#f2f2f2;
 }
 .noticiasUTP{
 	width: 100%;
@@ -135,6 +137,24 @@
 .flex{ display: flex; width: 100%; margin: 0 auto; text-align: center; }
 .btn1{ display: flex; width: 100%; }
 
-.librosVistos{ overflow:scroll; width: 815px; height: 225px; }
-.contenedorLibros{ width: 1025px; }
-.linksReferencia{ display: flex; flex-direction: row; flex-flow: row; justify-content: center;}
+.librosVistos{ overflow:scroll; width: 100%; height: 220px; overflow-y:hidden; }
+.contenedorLibros{ width: 120%; }
+.linksReferencia{ display: flex; justify-content: center; }
+.pieDePagina{ background-color: #354b63; height: 240px; }
+.tamanioPie{ width: 100%; }
+.contenedorPie{ display: flex; justify-content: flex-start; align-items: center; }
+.logoPie{ width: 220px; flex-flow: column; }
+.tamanioLogoPie{ width: 210px; height: 210px; }
+.disenio2{ flex-flow: row wrap !important; }
+.colorDeZona1{ background:#ffffff; }
+.noticias-2{ width:100%; background:#f2f2f2; }
+.eliminarMargen{ padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0;}
+.colorFondoGris{ background-color: #f2f2f2; }
+.alinearCentro{ justify-content: center; }
+.supercontenedor{ background:#f2f2f2; }
+body{ margin: 0; padding: 0; }
+.separador{ margin-bottom: 8%; border: 0; }
+.parrafo{ margin-top: 0rem; }
+.parrafo2{ flex-flow: column; }
+.parrafo3{ flex-flow: row; }
+.tuiterAdicional{ height: 100px; }
