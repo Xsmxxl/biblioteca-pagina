@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Biblioteca plantilla V2</title>
+	<title>Universidad Tecnológica de Panamá</title>
 	<link href="estilo/estilo.css" rel="stylesheet" type="text/css">
 
 	<script type="text/javascript" src="js\funciones.js">
@@ -63,7 +63,7 @@
 	<div class="espacio"></div>
 </header>
 <body onload="fecha()">
-	<table class="barra" >
+	<table class="barra flex " >
 		<tr>
 			<th class="opciones"><button class="btn1" onclick="prueba()">Inicio</button></th>
 			<th class="opciones"><button class="btn1" onclick="prueba()">Catalogo</button></th>
@@ -82,7 +82,7 @@
 		<table class="contenidoCajaBusqueda" align="center">
 			<tr class="columnaBusqueda">
 				<th class="cajaBusqueda">
-					<input type="text" id="textoBusqueda" value="Búsca con Summon" size="75%" />
+					<input type="text" id="textoBusqueda" placeholder="Búsca con summon" ="" size="75%" onblur="buscar()" />
 				</th>
 				<th class="botones">
 					<button onclick="buscar()" class="botonDeBusqueda" >Buscar</button>
@@ -98,11 +98,27 @@
 		<table class="NoticiasContenidoliterarioNoticias">
 			<tr class="noticias">
 				<th class="noticias1">
-					Párrafo 1
+					<h3>Otras noticias</h3>
+					<p>En esta sección van otras noticias importantes</p>
 				</th>
 
 				<th class="zonalinetaria">
-					Párrafo 2
+
+					<h3>Libros más buscados</h3>
+					<div class="librosVistos">
+						<div class="contenedorLibros">
+							<img src="imgenes/leithold.png">
+							<img src="imgenes/claculo1.png">
+							<img src="imgenes/Estadisticas.png">
+							<img src="imgenes/MAteriales.png">
+							<img src="imgenes/mecanicaV.png">
+							<img src="imgenes/quimica.png">
+						</div>
+					</div>
+					<div class="parafo">
+						<p>Shakespeare, POO, Bernoulli, tesis, motores hidraúlicos, idiomas, streptococus pneumoniae, artículos científicos, Tesla, (𝑥+𝑎)^𝑛=∑_(𝑘=0)^𝑛▒〖(𝑛¦𝑘) 𝑥^𝑘 〖𝑎 〗^(𝑛−𝑘) 〗,…</p>
+					</div>
+					
 				</th>
 			
 			
@@ -115,8 +131,29 @@
 					<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</th>
 			</tr>
-			
 		</table>
+		<div class="linksReferencia">
+							<a href="http://site.ebrary.com/lib/utpanama/home.action" >
+								<div>
+									<img src="imgenes/ebrary.png">
+								</div>
+							</a>
+							<a href="http://proquestcombo.safaribooksonline.com/" >
+								<div>
+									<img src="imgenes/safari.png">
+								</div>
+							</a>
+							<a href="http://pivot.cos.com/" >
+								<div>
+									<img src="imgenes/pivot.png">
+								</div>
+							</a>
+							<a href="https://www.refworks.com/refworks2/?r=authentication::init&groupcode=RWUTPanama" >
+								<div>
+									<img src="imgenes/Refworks.png">
+								</div>
+							</a>
+					</div>
 	</tbody>
 </div>
 

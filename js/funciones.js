@@ -52,9 +52,13 @@ function fecha(){
 	document.getElementById("fecha").innerHTML= today;
 }
 
-function buscar(){
+function buscar(event){
     var busquedaIncompleta = document.getElementById("textoBusqueda").value;
     var url = "http://utp.summon.serialssolutions.com/#!/search?ho=t&l=es-ES&q=";
     var busqComplt = url + busquedaIncompleta.split(" ").join("+");
     window.location=busqComplt;
+    var x = event.which;
+    if(x == 13){
+        window.location=busqComplt;
+    }
 }
