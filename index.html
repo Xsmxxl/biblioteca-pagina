@@ -1,180 +1,76 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Universidad Tecnológica de Panamá</title>
-	<link href="estilo/estilo.css" rel="stylesheet" type="text/css">
-
-	<script type="text/javascript" src="js\funciones.js">
-		//con este script puedo llamar en una ruta local un .js para ejecutarlo
-	</script>
-
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+	<link rel="icon" href="imgenes/favicon.ico" type="imgenes/ico"/>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 	</script>
-
 </head>
-
-<header>
-	<div class="colorArriba">
-		<div class="cuentaUsuario" align="right" align="bottom">
-			<button class="btn" onclick="prueba()">Iniciar Sesión</button>
-			<button class="btn" onclick="prueba()">Contáctanos</button>
-			<button class="btn" onclick="prueba()">English/US</button>
-		</div>
-	</div>
-	<div class="heder">
-		<table class="contenedor">
-			<tr>
-			    <td class="tamT1">
-			      <img src="imgenes/logo_utp.png" class="logo">
-			    </td>
-
-			    <td class="tamT2">
-			      <div class="separador"></div>
-			    </td>
-
-			    <td class="tdotro">
-			      <table class="tdese">
-			        <tr >
-			          	<td><h1 class="tituloUTP1">Biblioteca UTP</h1><p class="tituloUTP2">Universidad Tecnológica de Panamá</p></td>
-			          	<td ><p class="fecha" id="fecha" align="right"></p></td>
-			        </tr>
-			      </table>
-			    </td>
-
-			  </tr>
-		</table>
-	</div>
-
-	
-
-	</div>
-	<div class="colorAbajo"></div>
-
-	<div class="espacio"></div>
-</header>
-<body >
-	<div class="supercontenedor">
-		<table class="barra flex alinearCentro" >
-			<tr>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Inicio</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Catalogo</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Recursos</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Herramientas</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Sitios de interés</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Descargas</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Bibliotecario</button></th>
-				<th class="opciones"><button class="btn1" onclick="prueba()">Ayuda</button></th>
-			</tr>
-		</table>
-
-		
-		<div class="barraDeBusqueda">
-			<tbody class="cuerpoBusqueda">
-				<table class="contenidoCajaBusqueda" align="center">
-					<tr class="columnaBusqueda">
-						<th class="cajaBusqueda">
-							<input type="text" id="textoBusqueda" placeholder="Búsca con summon" ="" size="75%" onblur="buscar()" />
-						</th>
-						<th class="botones">
-							<button onclick="buscar()" class="botonDeBusqueda" >Buscar</button>
-						</th>
-
-					</tr>
-				</table>
-			</tbody>	
-		</div>
-
-		<div class="seccionNoticias eliminarMargen">
-			<tbody class="cuerpoNoticias">
-				<table class="NoticiasContenidoliterarioNoticias">
-					<tr class="noticias">
-						<th class="noticias1 colorDeZona1">
-							<h3>Otras noticias</h3>
-							<p>En esta sección van otras noticias importantes</p>
-						</th>
-
-						<th class="zonalinetaria">
-
-							<h3>Libros más buscados</h3>
-							<div class="librosVistos">
-								<div class="contenedorLibros">
-									<img src="imgenes/leithold.png">
-									<img src="imgenes/claculo1.png">
-									<img src="imgenes/Estadisticas.png">
-									<img src="imgenes/MAteriales.png">
-									<img src="imgenes/mecanicaV.png">
-									<img src="imgenes/quimica.png">
-								</div>
-							</div>
-							<div class="parafo ">
-								<p>Shakespeare, POO, Bernoulli, tesis, motores hidraúlicos, idiomas, streptococus pneumoniae, artículos científicos, Tesla, (𝑥+𝑎)^𝑛=∑_(𝑘=0)^𝑛▒〖(𝑛¦𝑘) 𝑥^𝑘 〖𝑎 〗^(𝑛−𝑘) 〗,…</p>
-							</div>
-							<div class="linksReferencia parrafo2 colorDeZona1">
-								<p></p>
-							</div>
-							<div class="linksReferencia parrafo3 colorDeZona1">
-								<a href="http://site.ebrary.com/lib/utpanama/home.action" >
-									<div>
-										<img src="imgenes/ebrary.png">
-									</div>
-								</a>
-								<a href="http://proquestcombo.safaribooksonline.com/" >
-									<div>
-										<img src="imgenes/safari.png">
-									</div>
-								</a>
-								<a href="http://pivot.cos.com/" >
-									<div>
-										<img src="imgenes/pivot.png">
-									</div>
-								</a>
-								<a href="https://www.refworks.com/refworks2/?r=authentication::init&groupcode=RWUTPanama" >
-									<div>
-										<img src="imgenes/Refworks.png">
-									</div>
-								</a>
-							</div>
-							<div class="linksReferencia parrafo2 colorDeZona1">
-								<p>Accede a nuestras base de datos y expande tus conocimientos</p>
-							</div>
-						</th>
-					
-					
-						<th class="noticias2 colorDeZona1" >
-							<a class="twitter-timeline tuiterAdicional" href="https://twitter.com/utppanama"
-							height="530"
-		  					data-chrome="nofooter"
-		  					data-link-color="#820bbb"
-		  					data-border-color="#a80000">Tweets de utppanama</a> 
-							<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</th>
-					</tr>
-				</table>
-
-			</tbody>
-		</div>
-	</div>
-	<footer class="pieDePagina tamanioPie">
-		<div class="contenedorPie">
-			<div class="logoPie">
-				<figure>
-					<img src="imgenes/logo_utp_sin_fondo.png" alt="" class="tamanioLogoPie" >
-				</figure>
+<body>
+	 <header>
+	 	<div class="sesion"></div>
+	 	<div class="cabecera">
+		 	<div class="imagen">
+				<img src="imgenes/logo_utp.png" alt="" class="imagen1">
+		 	</div>
+		 	<div class="lectura">
+		 		<div class="titulos">
+		 			<h1 class="letra_titulo">Universidad Tecnológica de Panamá</h1>
+		 			<h5 class="letra_titulo_2">Camino a la excelencia a través del mejoramiento continuo</h5>
+		 		</div>
+		 	</div>
+	 	</div>
+	 	<div class="linea"></div>
+	 </header>
+	 <nav class="barra">
+	 	<ul class="menu">
+			<a href="#"><li><button class="btn">Opccion 1</button></li></a>
+			<a href="#"><li><button class="btn">Opccion 2</button></li></a>
+			<a href="#"><li><button class="btn">Opccion 3</button></li></a>
+			<a href="#"><li><button class="btn">Opccion 4</button></li></a>
+		</ul>
+	 </nav>
+	 <section class="cuerpo_page" >
+	 	<div class="contenido">
+	 		<div class="principal">
+	 			<p>Shakespeare, POO, Bernoulli, tesis, motores hidraúlicos, idiomas, streptococus pneumoniae, artículos científicos, Tesla, (𝑥+𝑎)^𝑛=∑_(𝑘=0)^𝑛▒〖(𝑛¦𝑘) 𝑥^𝑘 〖𝑎 〗^(𝑛−𝑘) 〗,…</p>
+	 		</div>
+	 		<div class="noticias">
+	 			<a class="twitter-timeline tuiterAdicional" href="https://twitter.com/utppanama"
+				height="530"
+				data-chrome="nofooter"
+				data-link-color="#820bbb"
+				data-border-color="#a80000">Tweets de utppanama</a> 
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	 		</div>
+	 	</div>
+	 </section>
+	 <footer class="pie">
+	 	<div class="contenedorPie">
+			<div class="imagenPie">
+			 	<figure>
+			 		<img src="imgenes/logo_Utp_Blanco.png" alt="" class="imagen2">
+			 	</figure>
 			</div>
-			<div class="disenio2">
-				<figure>
-					<a href="http://www.utp.ac.pa/"><img src="imgenes/pie1.png"></a>
-				</figure>
-				<figure>
-					<a href="http://matricula.utp.ac.pa"><img src="imgenes/pie2.png"></a>
-				</figure>
-				<figure>
-					<a href="http://moodle.utp.ac.pa/"><img src="imgenes/pie3.png"></a>
-				</figure>
-			</div>
-		</div>
-	</footer>
 
+		 	<div class="links">
+			 	<figure>
+					<a href="http://www.utp.ac.pa/"><img src="imgenes/pie1.png" alt="" class="imagen3"></a>
+			 	</figure>
+			 	<figure>
+					<a href="http://matricula.utp.ac.pa"><img src="imgenes/pie2.png" alt="" class="imagen3"></a>
+			 	</figure>
+			 	<figure>
+					<a href="http://moodle.utp.ac.pa/"><img src="imgenes/pie3.png" alt="" class="imagen3"></a>
+			 	</figure>
+		 	</div>
+
+		 	<div class="otros">
+		 	</div>
+	 	</div>
+	 </footer>
 </body>
+</html>

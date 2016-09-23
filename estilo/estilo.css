@@ -1,160 +1,70 @@
-.barra{
-	border-collapse: collapse;
-    width: 100%;
-    background-color: #4472c4;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+header{ width: 100%; background-color: rgb(242, 242, 242); }
+	.imgaen{ width: 20%; }
+		.imagen1{ width: 100%; padding: 10%; }
+	.cabecera{ width: 100%; display: flex; align-items: center; }
+	.sesion{ background-color: rgb(178, 24, 190); height: 40px; }
+	.imagen{ width: 10%; }
+	.lectura{ width: 70%; padding: 5%; }
+	.letra_titulo{ font-size: 180%; }
+	.letra_titulo_2{ font-size: 100%; }
+	.linea{ background-color: rgb(255, 228, 142); height: 4px; }
+.barra{ width: 100%; background-color: #4472C4; }
+.menu{ display: flex; flex-flow: row; width: 100%; justify-content: space-around; }
+li{ list-style-type: none; text-align: center; }
+a{ text-decoration:none; }
+.btn{ text-decoration: none; border:none; background-color: #4472C4; color: white; font-size: 100%; }
+button:hover{ background-color: rgba(100,15,120,0.3); }
+.cuerpo_page{ width: 100%; display: flex; justify-content: space-around; }
+	.contenido{ width: 100%; display: flex; margin-right: 10%; margin-left: 10%; margin-top: 0%; background-color: rgb(242, 242, 242); }
+		.principal{ width: 70%; margin: 2%; }
+		.noticias{ width: 30%; margin: 1%; }
+.pie{ width: 100%; height: 200px; background-color: #354B63; }
+	.contenedorPie{ width: 100%; height: 100%; margin: 0; display: flex; justify-content: center; }
+		.imgaenPie{ width: 30%; display: flex; flex-flow: column; justify-content: space-around; }
+			.imagen2{ width: 13%; margin: 1%; left: 0; position: absolute; height: 30%; }
+		.links{ width: 18%; height: 80%; display: flex; flex-flow: column; justify-content: space-around; }
+			.imagen3{ width: 13%; left: 15%; position: absolute; height: 6%; }
+		.otros{ width: 60%; }
 
-.opciones{
-	font-family: "Times New Roman";
-	font-size: 14px;
-	padding: 8px;
-	color: white;
-}
-
-.tituloUTP1{
-	font-family: "Century Gothic";
-	font-size: 24px;
-}
-.tituloUTP2{
-	font-family: "Century Gothic";
-	font-size: 16px;
-}
-.titulosComunes{
-	padding: 0 8px;
-}
-.heder {
-	width: 100%;
-    background:#f2f2f2;
-    width: 100%;
-    height: 10rem;
-    
-}
-.separador{
-	width: 2px;
-    height: 135px;
-    background:#000000;
-}
-.colorArriba{
-	width: 100%;
-    height: 35px;
-    background:#b218be;
-}
-.colorAbajo{
-	width: 100%;
-    height: 3px;
-    background:#ffe48e;
-    margin: 0 0 40px 0;
-}
-.cuentaUsuario{
-	bottom: 100%;
-}
-.btn{
-	background-color: #454045; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-}
-.fecha{
-	right: 100%;
-}
-.tamT1{
-	width: 18%;
-	margin-left: 18%;
-}
-.tamT2{
-	width: 2%;
-}
-.tdese{
-	width: 100%;
-}
-.logo{
-	width: 125px;
-	height: 125px;
-	margin-left: 40%;
-	right: 100%;
-}
-.contenedor{
-	width: 100%;
-}
-.logotipo{
-	width: 10%;
-}
-.tdotro{
-	width: 86%;
-}
-.btn1{
-	background-color: #4472c4; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-}
-.columnaBusqueda{
-	width: 100%;
-	align: center;
-
-}
-.cuerpoBusqueda{
-	width: 100%;
-	height: 100%;
-}
-.contenidoCajaBusqueda{
-}
-.barraDeBusqueda{
-	background:#f2f2f2;
-	padding: 6%;
-}
-.seccionNoticias{ padding: 0; }
-.cuerpoNoticias{
-	width: 100%; padding: 0;
-}
-.NoticiasContenidoliterarioNoticias{
-	width: 100%;
-}
-.noticias{
-	width: 100%;
-}
-.noticias1{
-	width: 20%;
-}
-.noticias2{
-	width: 20%;
-}
-.zonalinetaria{
-	width: 60%; background:#f2f2f2;
-}
-.noticiasUTP{
-	width: 100%;
-	height: 800;
-}
-.flex{ display: flex; width: 100%; margin: 0 auto; text-align: center; }
-.btn1{ display: flex; width: 100%; }
-
-.librosVistos{ overflow:scroll; width: 100%; height: 220px; overflow-y:hidden; }
-.contenedorLibros{ width: 120%; }
-.linksReferencia{ display: flex; justify-content: center; }
-.pieDePagina{ background-color: #354b63; height: 240px; }
-.tamanioPie{ width: 100%; }
-.contenedorPie{ display: flex; justify-content: flex-start; align-items: center; }
-.logoPie{ width: 220px; flex-flow: column; }
-.tamanioLogoPie{ width: 210px; height: 210px; }
-.disenio2{ flex-flow: row wrap !important; }
-.colorDeZona1{ background:#ffffff; }
-.noticias-2{ width:100%; background:#f2f2f2; }
-.eliminarMargen{ padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0;}
-.colorFondoGris{ background-color: #f2f2f2; }
-.alinearCentro{ justify-content: center; }
-.supercontenedor{ background:#f2f2f2; }
-body{ margin: 0; padding: 0; }
-.separador{ margin-bottom: 8%; border: 0; }
-.parrafo{ margin-top: 0rem; }
-.parrafo2{ flex-flow: column; }
-.parrafo3{ flex-flow: row; }
-.tuiterAdicional{ height: 100px; }
+@media (min-width: 319px) and (max-width: 460px){
+	.btn{ font-size: 100%; }
+	.contenido{ flex-flow: column; }
+	.imagen2{ width: 27%; margin: 2%; height: 25%; margin-top: 8%; }
+	.imagen3{ width: 27%; left: 35%; }
+	.contenido{ width: 100%; display: flex; margin-right: 0%; margin-left: 0%; }
+	.principal{ width: 100%; }
+	.noticias{ width: 100%; }
+}@media (min-width: 461px) and (max-width: 770px){
+	.btn{ font-size: 180%; }
+	.imagen2{ width: 20%; }
+	.imagen3{ width: 20%; left: 25%; }
+	.pie{ height: 190px; }
+}@media (min-width: 1024px) and (max-width: 1440px){
+	.btn{ font-size: 200%; }
+	.imagen2{ width: 17%; }
+	.imagen3{ width: 20%; left: 20%; }
+	.pie{ height: 200px; }
+}@media (min-width: 1441px) and (max-width: 2560px){
+	.btn{ font-size: 300%; }
+	.pie{ height: 400px; }
+} 
